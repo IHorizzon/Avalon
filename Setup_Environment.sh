@@ -1,8 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash env
 
-############################################
-#  TCA Automation Environment Setup Script
-############################################
 # Update and upgrade
 pkg up -y && pkg upgrade -y
 
