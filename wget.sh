@@ -1,9 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash env
 
 # Remove existing files
-tsu -c 'find . -iname '*Automation.sh*' -exec rm -rf {} \;'
+tsu -c 'find . -iname '*Avalon.sh*' -exec rm -rf {} \;'
 
 # Fetch the script and setup
-tsudo wget https://raw.githubusercontent.com/TeamTCA/TCA-Automation/master/Automation.sh -O ./Automation.sh
-tsu -c chmod a+x Automation.sh
-tsu -c ./Automation.sh
+tsudo wget https://raw.githubusercontent.com/IHorizzon/Avalon/master/Avalon.sh -O ./Avalon.sh
+tsu -c chmod a+x Avalon.sh
+tsu -c ./Avalon.sh
