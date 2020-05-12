@@ -30,9 +30,9 @@ then tsu -c rm /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/Sha
 fi
 
 echo "Working Bypass..!"
-tsu -c mkdir /storage/emulated/0/TCA/
+tsu -c mkdir /storage/emulated/0/HH/
 tsudo wget https://github.com/TeamTCA/TCA-Automation/blob/master/mod  -O /storage/emulated/0/HH/mod
-tsu -c cp /storage/emulated/0/TCA/mod /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11808.pak
+tsu -c cp /storage/emulated/0/HH/mod /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11808.pak
 
 tsu -c iptables -A INPUT -p tcp  --dport 2000 -j DROP &>/dev/null
 tsu -c iptables -I INPUT -s down.qq.com -j DROP &>/dev/null
